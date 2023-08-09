@@ -1,0 +1,18 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <img src="{{ url_for('static', filename='Octocat.png') }}" class="App-logo" alt="logo" />
+            <p>
+                OpenAI <span class="heart">♥️</span> LangChain
+            </p>
+            <p class="large">
+                {{ title }}
+        </header>
+    </div>
+</body>
+
+</html>
